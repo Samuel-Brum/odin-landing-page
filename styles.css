@@ -131,11 +131,11 @@ a {
 
 .quote {
     text-align: left;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-bottom: 20px;
+    font-size: 36px;
     font-style: italic;
     font-weight: light;
     color: #4a5463;
@@ -144,21 +144,78 @@ a {
 
 .author {
     text-align: end;
-    padding-left: 150px;
+    padding-left: 120px;
     padding-right: 200px;
     padding-bottom: 100px;
     color: #1F2937;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
 .bottom {
     padding-left: 15%;
     padding-right: 9%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+}
+
+.cta_left {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    color: #F9FAF8;
+    gap: 5px;
+}
+
+.cta_top {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta_bottom {
+    font-size: 18px;
+    color: #E5E3EB;
+}
+
+.cta_button {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .footer {
     background-color: #1F2937;
     padding-left: 15%;
     padding-right: 9%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: auto;
 }
