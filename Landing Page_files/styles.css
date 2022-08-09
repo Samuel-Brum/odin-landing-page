@@ -74,8 +74,6 @@ a {
 }
 
 .hero_img {
-    display: flex;
-    align-self: center;
     margin-left: auto;
 }
 
@@ -91,7 +89,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .middle_txt {
@@ -103,11 +100,12 @@ a {
 }
 
 .middle_image {
+    display: flex;
+    justify-content: space-evenly;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
     gap: 40px;
-    display: flex;
 }
 
 
@@ -126,30 +124,6 @@ a {
     background-color: #E5E7EB;
     padding-left: 15%;
     padding-right: 9%;
-    flex: 1 0 auto;
-}
-
-.quote {
-    text-align: left;
-    padding-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: light;
-    color: #4a5463;
-    text-align: start;
-}
-
-.author {
-    text-align: end;
-    padding-left: 150px;
-    padding-right: 200px;
-    padding-bottom: 100px;
-    color: #1F2937;
-    font-size: 18px;
-    font-weight: bolder;
 }
 
 .bottom {
